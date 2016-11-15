@@ -21,10 +21,14 @@ npm install remarkable-figure-plugin
 ```js
 const figure = require('remarkable-figure-plugin')
 
-const md = new Remarkable(…)
+const md = new Remarkable()
 md.use(figure)
 
-md.render(…)
+md.render('![alt](url "title")')
+```
+
+```html
+<p><figure><img src="url" alt="alt" title="title"><figcaption>title</figcaption></figure></p>
 ```
 
 
