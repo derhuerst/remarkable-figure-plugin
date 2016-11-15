@@ -1,0 +1,14 @@
+{
+	"name":        "remarkable-figure-plugin",
+	"description": "A remarkable to render images as <figure> elements.",
+	"version":     "0.1.0",
+	"main":        "index.js",
+	"files":       ["index.js"],
+	"keywords":    ["markdown", "md", "remarkable", "plugin", "figure", "figcaption", "image"],
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/remarkable-figure-plugin",
+	"repository":  "derhuerst/remarkable-figure-plugin",
+	"bugs":        "https://github.com/derhuerst/remarkable-figure-plugin/issues",
+	"license":     "ISC",
+	"engines":     {"node": ">=6"}
+}
