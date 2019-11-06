@@ -15,7 +15,7 @@
 		"remarkable": "^1.7"
 	},
 	"devDependencies": {
-		"disparity": "^2"
+		"disparity": "^3.0.0"
 	},
 	"scripts": {
 		"test": "node test.js",
