@@ -10,12 +10,14 @@
 	"repository":  "derhuerst/remarkable-figure-plugin",
 	"bugs":        "https://github.com/derhuerst/remarkable-figure-plugin/issues",
 	"license":     "ISC",
-	"engines":     {"node": ">=6"},
+	"engines": {
+		"node": ">=10"
+	},
 	"dependencies": {
-		"remarkable": "^1.7"
+		"remarkable": "^2.0.1"
 	},
 	"devDependencies": {
-		"disparity": "^2"
+		"disparity": "^3.1.0"
 	},
 	"scripts": {
 		"test": "node test.js",

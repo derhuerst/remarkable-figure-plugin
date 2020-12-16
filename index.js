@@ -1,8 +1,6 @@
 'use strict'
 
-const {replaceEntities, escapeHtml} = require('remarkable/lib/common/utils');
-
-
+const {replaceEntities, escapeHtml} = require('remarkable').utils
 
 const rule = (imageRule) => (tokens, i, opt, env) => {
 	const img = imageRule(tokens, i, opt, env)

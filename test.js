@@ -1,6 +1,6 @@
 'use strict'
 
-const Remarkable = require('remarkable')
+const {Remarkable} = require('remarkable')
 const disparity = require('disparity')
 
 const figure = require('.')
